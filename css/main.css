@@ -1,0 +1,196 @@
+body {
+  align-items: center;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  font-family: 'DM Sans', sans-serif;
+  justify-content: center;
+}
+
+main {
+  min-width: 21rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid hsl(27, 66%, 92%);
+}
+
+.my-balance-section,
+.entry,
+.graph-container,
+.total-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.my-balance-section {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 0.5rem;
+  color: hsl(33, 100%, 98%);
+  margin: 0 0 1rem;
+  padding: 1rem 1.32rem
+}
+
+.my-balance-text {
+  font-size: 0.92rem;
+}
+
+.my-balance-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo {
+  margin: 0 0 0 auto;
+  width: 19%;
+}
+
+.spending-section {
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.32rem
+}
+
+.heading {
+  color: hsl(25, 47%, 15%);
+  font-size: 1.45rem;
+}
+
+.graph-container {
+  align-items: flex-end;
+  padding: 3.25rem 0 1.5rem;
+  text-align: center;
+}
+
+.entry {
+  flex-direction: column;
+  margin: 0 0.4rem;
+  width: 2rem;
+  position: relative;
+}
+
+.tag {
+  color: hsl(33, 100%, 98%);
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 0.35rem;
+  font-size: 0.79rem;
+  font-weight: 700;
+  display: none;
+  padding: 0.35rem;
+  position: absolute;
+  top: -2.25rem;
+  z-index: 1;
+}
+
+.bar {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.bar:hover {
+  background-color: hsla(10, 79%, 65%, 0.75);
+}
+
+.highest-bar {
+  background-color: hsl(186, 34%, 60%);
+}
+
+.highest-bar:hover {
+  background-color: hsla(186, 34%, 60%, 0.75);
+}
+
+.chart-label {
+  color: hsl(28, 10%, 53%);
+  font-size: 0.75rem;
+  padding: 0.5rem 0 0;
+}
+
+.total-section {
+  align-items: flex-end;
+  color: hsl(28, 10%, 53%);
+  justify-content: space-between;
+  padding: 1.25rem 0 0.25rem;
+}
+
+.total-text {
+  font-size: 0.95rem;
+}
+
+.total-value,
+.percentual-change {
+  color: hsl(25, 47%, 15%);
+  font-weight: 700;
+}
+
+.total-value {
+  font-size: 2rem;
+}
+
+.percentual-change {
+  text-align: end;
+}
+
+@media(min-width: 376px) {
+  main {
+    min-width: 27rem;
+  }
+
+  .my-balance-section {
+    border-radius: 1rem;
+    padding: 1.25rem 1.75rem;
+  }
+
+  .my-balance-text {
+    font-size: 0.95rem;
+  }
+
+  .my-balance-value {
+    font-size: 1.75rem;
+  }
+
+  .logo {
+    width: 15.2%;
+  }
+
+  .spending-section {
+    border-radius: 1.25rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .graph-container {
+    padding: 3.5rem 0 1.5rem;
+  }
+
+  .entry {
+    margin: 0 0.5rem;
+    width: 2.75rem;
+  }
+
+  .tag {
+    font-size: 1rem;
+    padding: 0.45rem 0.5rem;
+    top: -3rem;
+  }
+
+  .chart-label {
+    padding: 0.35rem 0 0;
+  }
+
+  .total-section {
+    padding: 1.5rem 0 0.5rem;
+  }
+
+  .total-text {
+    font-size: 0.92rem;
+  }
+
+  .total-value {
+    font-size: 2.5rem;
+  }
+}

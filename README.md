@@ -4,7 +4,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](here: https://www.frontendmentor.io/solutions/expenses-chart-component-mobile-first-Va92T2-sUO)
 - Live Site URL: [GitHub Pages](https://github.com/byIroh/expenses-chart-component)
 
 ## Table of contents
